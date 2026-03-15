@@ -1,0 +1,26 @@
+.main-section {
+    height: 670px;
+    width: 1500px;
+    background-image: url("images/hotel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.headding{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(243, 239, 12);
+    text-shadow: 5px 5px 2px rgb(57, 22, 4);
+    /* te */
+    padding: 50px;
+    /* border: 1px solid; */
+    width: 50%;
+    transform: translate(50px,215px);
+}
+form{
+    color: aliceblue;
+}

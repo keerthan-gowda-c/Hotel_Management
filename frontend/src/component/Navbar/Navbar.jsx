@@ -15,21 +15,12 @@ export default function Navbar(){
           <NavLink to={'/'} className="nav-link">Home</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to={'/AboutPage'} className="nav-link">About</NavLink>
-        </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+          <NavLink to={'/About'} className="nav-link">About</NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled" aria-disabled="true">Disabled</a>
+          <NavLink to={'/Service'} className="nav-link">Service</NavLink>
+        </li><li className="nav-item">
+          <NavLink to={'/Contact'} className="nav-link">Contact</NavLink>
         </li>
       </ul>
       <form className="d-flex" role="search">
